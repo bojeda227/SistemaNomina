@@ -17,9 +17,9 @@ jobs:
         dotnet-version: 8.0.x
 
     - name: Restore
-      run: dotnet restore HerenciaSistemaNomina.sln
+      run: dotnet restore HerenciaSistemaNomina.slnx
 
     - name: Build
-      run: dotnet build HerenciaSistemaNomina.sln --configuration Release
+      run: dotnet build HerenciaSistemaNomina.slnx --configuration Release
 
     
