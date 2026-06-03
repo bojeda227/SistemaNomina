@@ -29,6 +29,8 @@ namespace HerenciaSistemaNomina.Formularios
             TLista.lista.Add(new Comisionado("004", "1723456789", "Ana", "Martinez", new DateTime(1988, 12, 5), 'F', "Casado", "Calle Falsa 321", "0981234567", "Comisionado", 5000, 15, 750));
             TLista.lista.Add(new Comision("005", "1723456789", "Luis", "Ramirez", new DateTime(1990, 7, 15), 'M', "Soltero", "Av. Siempre Viva 456", "0998765432", "Comision", 6000, 20));
             TLista.lista.Add(new Comision("006", "1723456789", "Carlos", "Ramirez", new DateTime(1980, 7, 10), 'M', "Soltero", "Av. Siempre Viva 486", "0998765432", "Comision", 5000, 25));
+            TLista.lista.Add(new Comision("007", "1723456789", "Carlos", "Ramirez", new DateTime(1980, 7, 10), 'M', "Soltero", "Av. Siempre Viva 486", "0998765432", "Comision", 5000, 25));
+            TLista.lista.Add(new Comision("008", "1723456789", "Carlos", "Ramirez", new DateTime(1980, 7, 10), 'M', "Soltero", "Av. Siempre Viva 486", "0998765432", "Comision", 5000, 25));
 
         }
 
