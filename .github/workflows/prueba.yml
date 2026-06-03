@@ -17,9 +17,9 @@ jobs:
         dotnet-version: 8.0.x
 
     - name: Restore
-      run: dotnet restore ClaseAbstractaSistemaNomina.slnx
+      run: dotnet restore 05-ClaseAbstractaSistemaNomina.slnx
 
     - name: Build
-      run: dotnet build ClaseAbstractaSistemaNomina.slnx --configuration Release
+      run: dotnet build 05-ClaseAbstractaSistemaNomina.slnx --configuration Release
 
     
