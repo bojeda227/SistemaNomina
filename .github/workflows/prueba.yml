@@ -21,5 +21,4 @@ jobs:
 
     - name: Build
       run: dotnet build 05-ClaseAbstractaSistemaNomina.slnx --configuration Release
-
-    
+      
