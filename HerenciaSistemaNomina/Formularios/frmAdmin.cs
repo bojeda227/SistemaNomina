@@ -22,6 +22,7 @@ namespace HerenciaSistemaNomina.Formularios
 
         public void Datos()
         {
+            //datos ingresados
             TLista.lista.Add(new Fijo("001", "1723456789", "Juan", "Perez", new DateTime(1990, 5, 15), 'M', "Soltero", "Av. Siempre Viva 123", "0998765432", "Fijo", 1200, 9.35, 200));
             TLista.lista.Add(new Fijo("002", "1723456789", "Maria", "Gomez", new DateTime(1985, 8, 20), 'F', "Casado", "Calle Falsa 456", "0987654321", "Fijo", 1500, 12.5, 300));
             TLista.lista.Add(new Contratado("003", "1723456789", "Carlos", "Lopez", new DateTime(1992, 4, 10), 'M', "Soltero", "Av. Siempre Viva 789", "0991234567", "Contratado", 10, 20, 160));
